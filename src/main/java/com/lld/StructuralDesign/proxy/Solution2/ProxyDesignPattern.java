@@ -1,0 +1,15 @@
+package com.lld.StructuralDesign.proxy.Solution2;
+
+public class ProxyDesignPattern {
+    public static void main(String[] args) {
+        try{
+            EmployeeDao employeeDao = new EmployeeDaoProxy();
+            employeeDao.create("USER",new EmployeeDo());
+        //    employeeDao.create("ADMIN",new EmployeeDo());
+            System.out.println("Operation Successful");
+        }
+        catch (Exception e){
+            System.out.println(e.getMessage());
+        }
+    }
+}

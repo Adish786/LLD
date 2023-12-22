@@ -1,4 +1,4 @@
-package com.lld.StructuralDesign.proxy;
+package com.lld.StructuralDesign.proxy.Solution1;
 
 import java.util.ArrayList;
 import java.util.List;
